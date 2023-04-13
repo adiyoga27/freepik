@@ -28,7 +28,7 @@ class CustomSlide extends Component {
 export default class Responsive extends Component {
   constructor(props) {
     super(props);
-    this.state = { deadline: "January, 10, 2022", deadline1: "February, 10, 2022", deadline2: "February, 1, 2022", height: 0 };
+    this.state = { deadline: "", deadline1: "February, 10, 2022", deadline2: "February, 1, 2022", height: 0 };
     this.onImgLoad = this.onImgLoad.bind(this);
   }
 
@@ -120,7 +120,7 @@ export default class Responsive extends Component {
                     <h4>Pinky Ocean</h4>
                   </span>
                   <div className="nft__item_price">
-                    0.08 ETH<span>1/20</span>
+                    Rp 350.000<span>1/20</span>
                   </div>
                   <div className="nft__item_action">
                     <span onClick={() => window.open("/#", "_self")}>Place a bid</span>
@@ -154,7 +154,7 @@ export default class Responsive extends Component {
                     <h4>Deep Sea Phantasy</h4>
                   </span>
                   <div className="nft__item_price">
-                    0.06 ETH<span>1/22</span>
+                    Rp 250.000<span>1/22</span>
                   </div>
                   <div className="nft__item_action">
                     <span onClick={() => window.open("/#", "_self")}>Place a bid</span>
@@ -191,7 +191,7 @@ export default class Responsive extends Component {
                     <h4>Rainbow Style</h4>
                   </span>
                   <div className="nft__item_price">
-                    0.05 ETH<span>1/11</span>
+                    Rp 150.000<span>1/11</span>
                   </div>
                   <div className="nft__item_action">
                     <span onClick={() => window.open("/#", "_self")}>Place a bid</span>
@@ -259,7 +259,7 @@ export default class Responsive extends Component {
                     <h4>The Truth</h4>
                   </span>
                   <div className="nft__item_price">
-                    0.06 ETH<span>1/20</span>
+                    Rp 250.000<span>1/20</span>
                   </div>
                   <div className="nft__item_action">
                     <span onClick={() => window.open("/#", "_self")}>Place a bid</span>
