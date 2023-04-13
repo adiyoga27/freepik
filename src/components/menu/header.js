@@ -277,7 +277,7 @@ const Header = function () {
           </BreakpointProvider>
 
           <div className='mainside'>
-            <NavLink to="/" className="btn-main">Login</NavLink>
+            <NavLink to="/login" className="btn-main">Login</NavLink>
           </div>
 
         </div>
